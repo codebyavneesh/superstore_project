@@ -102,13 +102,13 @@ Filters available: Segment, Category, City, Ship Mode, Country, Year.
 ## Dashboard Preview
 
 **Page 1 — Executive Overview**
-![Executive Overview]([images/dashboard_images/image1.png](https://github.com/codebyavneesh/superstore_project/blob/main/superstore_project/images/dashboard_images/image1.png))
+![Executive Overview](images/dashboard_images/image1.png)
 
 **Page 2 — Product Analysis**
-![Product Analysis]([images/dashboard_images/image2.png](https://github.com/codebyavneesh/superstore_project/blob/main/superstore_project/images/dashboard_images/image2.png))
+![Product Analysis](images/dashboard_images/image2.png)
 
 **Page 3 — Regional & Shipping Analysis**
-![Regional & Shipping Analysis]([images/dashboard_images/image3.png](https://github.com/codebyavneesh/superstore_project/blob/main/superstore_project/images/dashboard_images/image3.png))
+![Regional & Shipping Analysis](images/dashboard_images/image3.png)
 
 ## How to Run
 
@@ -121,6 +121,6 @@ Filters available: Segment, Category, City, Ship Mode, Country, Year.
 
 ## Author
 
-**codebyavneesh**
+**Avneesh**
 GitHub: [codebyavneesh](https://github.com/codebyavneesh)
 LinkedIn: [codebyavneesh](https://linkedin.com/in/codebyavneesh)
