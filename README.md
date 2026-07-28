@@ -1,19 +1,36 @@
-# Superstore Sales Analytics
+# 🛒 Superstore Sales Analytics
 
-End-to-end data analytics project on the Superstore dataset — covering database design, advanced SQL analysis, Python-based data cleaning/EDA, and an interactive Power BI dashboard.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
-## Project Overview
+End-to-end data analytics project on the Superstore dataset — covering database design, advanced SQL analysis, Python-based data cleaning/EDA, and an interactive Power BI dashboard. 📊
+
+## 🎯 Project Overview
 
 This project analyzes retail sales data to uncover insights around revenue, profitability, customer behavior, shipping performance, and regional/category trends. The pipeline goes from raw CSV → cleaned data → MySQL database → SQL analysis → Python EDA → Power BI dashboard.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- **Python** — Pandas, NumPy, Matplotlib, Seaborn (data cleaning, feature engineering, EDA)
-- **SQLAlchemy** — loading cleaned data into MySQL
-- **MySQL** — schema design and advanced SQL analysis
-- **Power BI** — interactive multi-page dashboard
+- 🐍 **Python** — Pandas, NumPy, Matplotlib, Seaborn (data cleaning, feature engineering, EDA)
+- 🔗 **SQLAlchemy** — loading cleaned data into MySQL
+- 🗄️ **MySQL** — schema design and advanced SQL analysis
+- 📈 **Power BI** — interactive multi-page dashboard
 
-## Folder Structure
+## 💡 Skills Demonstrated
+
+- Data Cleaning & Preprocessing (handling missing values, feature engineering)
+- Exploratory Data Analysis (EDA) with Matplotlib & Seaborn
+- Database Design (schema design, normalization)
+- Python–MySQL Connectivity (SQLAlchemy)
+- Advanced SQL (Window Functions, CTEs, LAG, Running Totals, Ranking)
+- Business Analytics (CLV, Pareto/80-20 analysis, YoY growth, cohort-style repeat customer analysis)
+- Data Visualization & Dashboarding (Power BI — KPIs, drill-through, filters, multi-page reports)
+- Version Control & Documentation (Git/GitHub, README structuring)
+
+## 📁 Folder Structure
 
 ```
 superstore_project/
@@ -41,7 +58,7 @@ superstore_project/
     └── superstore_dashboard.pbix   # Power BI dashboard file
 ```
 
-## Workflow
+## 🔄 Workflow
 
 1. **Data Cleaning & Feature Engineering** (`data_cleaning_and_feature_engg.ipynb`) — Cleaned the raw Superstore dataset and engineered features required for downstream analysis.
 2. **Exploratory Data Analysis** (`EDA.ipynb`) — Analyzed the cleaned dataset and built visualizations to understand sales, profit, and customer patterns.
@@ -50,7 +67,7 @@ superstore_project/
 5. **SQL Analysis** (`sql_queries.sql`) — Wrote 20 advanced SQL queries (window functions, CTEs, running totals) covering revenue, profitability, customer, shipping, and regional analysis.
 6. **Power BI Dashboard** (`superstore_dashboard.pbix`) — Built a 3-page interactive dashboard summarizing key business insights.
 
-## SQL Analysis — 20 Advanced Queries
+## 🧮 SQL Analysis — 20 Advanced Queries
 
 | # | Query |
 |---|---|
@@ -75,7 +92,7 @@ superstore_project/
 | 19 | Discount Effectiveness by Range |
 | 20 | Executive Business Report (Region-wise KPI summary) |
 
-## Power BI Dashboard
+## 📊 Power BI Dashboard
 
 The dashboard has 3 pages:
 
@@ -99,18 +116,18 @@ The dashboard has 3 pages:
 
 Filters available: Segment, Category, City, Ship Mode, Country, Year.
 
-## Dashboard Preview
+## 🖼️ Dashboard Preview
 
-**Page 1 — Executive Overview**
-![Executive Overview](images/dashboard_images/image1.png)
+**Page 1 — Executive Overview** 🏆
+![Executive Overview](https://raw.githubusercontent.com/codebyavneesh/superstore_project/main/superstore_project/images/dashboard_images/image1.png)
 
-**Page 2 — Product Analysis**
-![Product Analysis](images/dashboard_images/image2.png)
+**Page 2 — Product Analysis** 📦
+![Product Analysis](https://raw.githubusercontent.com/codebyavneesh/superstore_project/main/superstore_project/images/dashboard_images/image2.png)
 
-**Page 3 — Regional & Shipping Analysis**
-![Regional & Shipping Analysis](images/dashboard_images/image3.png)
+**Page 3 — Regional & Shipping Analysis** 🚚
+![Regional & Shipping Analysis](https://raw.githubusercontent.com/codebyavneesh/superstore_project/main/superstore_project/images/dashboard_images/image3.png)
 
-## How to Run
+## 🚀 How to Run
 
 1. Place the raw dataset in `data/row_data/`.
 2. Run `scripts/data_cleaning_and_feature_engg.ipynb` to generate the cleaned dataset in `data/cleaned_data/`.
@@ -119,8 +136,9 @@ Filters available: Segment, Category, City, Ship Mode, Country, Year.
 5. Execute `sql/schema_design.sql` to set up the schema, then run queries from `sql/sql_queries.sql`.
 6. Open `dashboard/superstore_dashboard.pbix` in Power BI Desktop to view/refresh the dashboard.
 
-## Author
+## 👤 Author
 
-**Avneesh**
-GitHub: [codebyavneesh](https://github.com/codebyavneesh)
-LinkedIn: [codebyavneesh](https://linkedin.com/in/codebyavneesh)
+**codebyavneesh**
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/codebyavneesh)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/codebyavneesh)
